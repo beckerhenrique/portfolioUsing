@@ -1,0 +1,12 @@
+.navbar{
+   padding: 1rem;
+   background-color: #1f2b3e;
+   color: #FFFFFF;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.navbar section{
+   display: flex;
+   gap: 1.2rem;
+}

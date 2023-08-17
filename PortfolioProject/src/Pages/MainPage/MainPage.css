@@ -1,0 +1,27 @@
+
+*{
+   margin: 0;
+   padding: 0;
+}
+.Page{
+   min-height: 100vh;
+   min-width: 100vw;
+}
+.Section{
+   min-height: 90vh;
+}
+.Home {
+   position: relative;
+   background-image: url('../../../public/computer.jpg');
+   background-size: cover;
+ }
+ 
+ .Home::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(31, 43, 62, 0.9);
+ }
